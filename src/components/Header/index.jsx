@@ -36,7 +36,7 @@ visas.</p>
 
         <div className='HeaderRight'>
             <div className='inputContainer border-[2px] border-solid border-blue-800 flex gap-[30px]'>
-               <AiOutlineSearch color='blue' background="blue" width="40px" style={{width:'50px',height:'30px',marginLeft:'-60px'}}/> <input type="text" placeholder="Search a Term | Topic" className="placeholder-blue-800 font-bold placeholder-font-bold"/>
+               <AiOutlineSearch color='blue' background="blue" width="40px" style={{width:'50px',height:'30px',marginLeft:'-30px'}}/> <input type="text" placeholder="Search a Term | Topic" className="placeholder-blue-800 font-bold placeholder-font-bold"/>
             </div>
             <div className='Ellipse'>
                 <img src={ellipse8} style={{width:'50px',height:'50px'}} alt="circle"/>

@@ -90,9 +90,9 @@ adjust according to their parent s
 strategies and have changed local 
 requirements overnight in the past. 
 But we are here to help you.
-            </p>
+            </p><br/>
             <div className='nav'>
-              <span><a href="www">Learn more <img src={arr} alt="arrowIcon"/></a> </span>
+              <span className='text-2xl text-blue-600'><a href="www">Learn more <img src={arr} alt="arrowIcon"/></a> </span>
             </div>
           </div></div>
 
@@ -114,9 +114,9 @@ manufacturing is licensed. In others
 there is a threshold below which 
 business are encouraged. Get our 
 insightfull guidance today.
-  </p></div>
-  <div className='nav'>
-    <span><a href="www">Learn more <img src={arr} alt="arrowIcon"/></a></span>
+  </p></div><br/>
+  <div className='nav md:-ml-[200px] -ml-[150px]'>
+    <span className='text-2xl text-blue-600'><a href="www">Learn more <img src={arr} alt="arrowIcon"/></a></span>
   </div>
 
           
@@ -144,7 +144,7 @@ insightfull guidance today.
 <img src={ellipse14} alt="icon" style={{marginTop:'40px'}}/>
 </div><br/><br/><br/>
        
-        <div style={{border:'1px solid grey',height:'600px',borderRadius:'10px'}} className="Bank">
+        <div style={{border:'1px solid grey',borderRadius:'10px'}} className="Bank p-2 md:h-[600px]">
           <img src={group2} alt="illustration"/>
 
           <div>
@@ -158,9 +158,9 @@ with you. All the paperwork is done
 on your behalf smoothly so that you 
 may only focus on doing what 
 matters most to you.
-            </p>
+            </p><br/>
             <div className='nav'>
-              <span><a href="www">Learn more <img src={arr} alt="arrowIcon"/></a> </span>
+              <span className="text-blue-600 text-2xl"><a href="www">Learn more <img src={arr} alt="arrowIcon"/></a> </span>
             </div>
           </div></div>
 
@@ -170,7 +170,7 @@ matters most to you.
 
         <div className='Features1Left'>
        
-       <div style={{border:'1px solid grey',height:'600px',borderRadius:'10px'}} className="Bank">
+       <div style={{border:'1px solid grey',borderRadius:'10px'}} className="Bank p-2 md:h-[600px]">
          <img src={group2} alt="illustration"/>
 
          <div>
@@ -185,9 +185,9 @@ with you. All the paperwork is done
 on your behalf smoothly so that you 
 may only focus on doing what 
 matters most to you.
-           </p>
+           </p><br/>
            <div className='nav'>
-             <span><a href="www">Learn more <img src={arr} alt="arrowIcon"/></a> </span>
+             <span className="text-blue-600 text-2xl"><a href="www">Learn more <img src={arr} alt="arrowIcon"/></a> </span>
            </div>
          </div></div>
 
