@@ -1,0 +1,22 @@
+.FooterContainer{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.sections{
+    width:300px;
+    font-size:25px;
+    color:gray;
+}
+@media(max-width:768px){
+    .FooterContainer{
+        width:90%;
+        margin:auto;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        gap:40px;
+    }
+}

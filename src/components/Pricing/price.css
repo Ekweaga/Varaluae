@@ -1,0 +1,61 @@
+.PricingPlan{
+    width:90%;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    gap:50px;
+}
+.PricingPlan button{
+    width:320px;
+    background:transparent;
+    border:2px solid #525DED;
+    color:#525DED;
+    font-size: 20px;
+    padding:10px;
+    height:70px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.PricingContainer{
+    position:relative;
+}
+ .priceCircle{
+    position: absolute;
+    right:-150px;
+    bottom:-200px;
+
+}
+.priceCircle img{
+    width:300px;
+    height:300px;
+}
+ .h1{
+    position: relative;
+}
+ .divider{
+    position: absolute;
+    height:8px;
+    width:380px;
+    background: #FFA500;
+    bottom:-5px;
+    left:0;
+    
+}
+
+@media(max-width:768px){
+    .PricingPlan{
+        width:90%;
+        margin:auto;
+        display:flex;
+        align-items: center;
+        padding:10px;
+        gap:40px;
+        overflow-x:scroll;
+        scrollbar-color: blue;
+        scroll-snap-type: mandatory;
+        scrollbar-highlight-color: blue;
+    }
+}
