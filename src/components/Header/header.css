@@ -64,7 +64,7 @@ align-items: center;
 .HeaderContainer .HeaderLeft h1 .divider{
     position: absolute;
     height:8px;
-    width:220px;
+    width:270px;
     background: #FFA500;
     bottom:-5px;
     left:0;
