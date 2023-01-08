@@ -3,6 +3,7 @@ import "./header.css"
 import illustration  from "../../UX-UI Developer Test/Assets/ILLUSTRATION.png"
 import ellipse8 from "../../UX-UI Developer Test/Assets/Ellipse 8.png"
 import ellipse21 from "../../UX-UI Developer Test/Assets/Ellipse 21.png"
+import{AiOutlineSearch} from "react-icons/ai"
 
 function Header() {
   return (
@@ -15,8 +16,8 @@ function Header() {
             <img src={ellipse21} style={{width:'50px',height:'50px'}} alt="circle" className='hidden md:block'/>
             </div>
             <div className='quote mt-[100px]'>
-                <h3>Claim a Free Quote</h3>
-                <h1><span className='h1'>Get started <span className='divider'></span></span>on fulfilling 
+                <h3 className='font-bold'>Claim a Free Quote</h3>
+                <h1 className='text-4xl font-bold'><span className='h1'>Get started <span className='divider'></span></span>on fulfilling 
 your Dubai or UAE dream.</h1>
             </div>
             <div className="offshore">
@@ -34,8 +35,8 @@ visas.</p>
 
 
         <div className='HeaderRight'>
-            <div className='inputContainer border-[2px] border-solid border-blue-800'>
-                <input type="text" placeholder="Search a Term | Topic"/>
+            <div className='inputContainer border-[2px] border-solid border-blue-800 flex gap-[30px]'>
+               <AiOutlineSearch color='blue' background="blue" width="40px" style={{width:'50px',height:'30px',marginLeft:'-60px'}}/> <input type="text" placeholder="Search a Term | Topic" className="placeholder-blue-800 font-bold placeholder-font-bold"/>
             </div>
             <div className='Ellipse'>
                 <img src={ellipse8} style={{width:'50px',height:'50px'}} alt="circle"/>

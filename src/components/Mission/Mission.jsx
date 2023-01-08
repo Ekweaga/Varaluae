@@ -25,7 +25,7 @@ function Mission() {
       <div className='uaeDesc'> <p>Watch the video about UAE or Offshore Company Registration</p> <div style={{border:'2px solid blue',borderRadius:'50%',padding:'5px'}}><img src={videoImg} alt="videoIcon"/></div></div><br/>
 
       <div className='uaeMission'>
-        <h2 className='text-3xl font-bold'>Dedicated<br/>to our mission we are</h2>
+        <h2 className='text-3xl font-bold'><span className=" relative">Dedicated<span className="dividers w-[140px] h-[8px] bg-yellow-500 absolute -bottom-[3px] left-0 mt-[3px]"></span></span><br/>to our mission we are</h2>
         <p>Our services include Company Formation & Renewals, 
 Trust & Fiduciary, Tax Residency Setup With Family, Bank 
 Accounts, Remote Management, Stock Trading 
@@ -148,7 +148,7 @@ insightfull guidance today.
           <img src={group2} alt="illustration"/>
 
           <div>
-            <h2>UAE Company Visas</h2>
+            <h2 className='text-2xl font-bold mt-[20px] mb-[20px]'>UAE Company Visas</h2>
             <p>
             Your application for visas is critical 
 especially if you intend to move to 
@@ -174,7 +174,7 @@ matters most to you.
          <img src={group2} alt="illustration"/>
 
          <div>
-           <h2>Registration Document 
+           <h2 className="text-2xl font-bold mt-[20px] mb-[20px]">Registration Document 
 Preparation</h2>
            <p>
            Your application for visas is critical 
